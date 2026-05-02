@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs-olive-editor": {
+      "locked": {
+        "lastModified": 1762117148,
+        "narHash": "sha256-LcED7So2VROZAxDuPZpMAGxe3qTh2/SFtlWywcsc8yo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d09aec1b2769b6d64e590c0fa921cef2415529db",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d09aec1b2769b6d64e590c0fa921cef2415529db",
+        "type": "github"
+      }
+    },
+    "nixpkgs-stable": {
+      "locked": {
+        "lastModified": 1777179511,
+        "narHash": "sha256-GCqyVuDsIavHaoFa1dGHAPGKkMbjMhexYN9wBZQNH8U=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "e56e56311fc951877e3fda0dac432554ce2d21c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "master",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs-olive-editor": "nixpkgs-olive-editor",
+        "nixpkgs-stable": "nixpkgs-stable"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
