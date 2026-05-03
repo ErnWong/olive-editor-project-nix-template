@@ -20,7 +20,7 @@
       ];
     }).olive-editor;
     olive-editor-wrapped = pkgs.writeShellApplication {
-      name = "olive-editor-proot";
+      name = "olive-editor";
       runtimeInputs = [
         olive-editor
         pkgs.proot
@@ -69,12 +69,30 @@
           -b ./olive.cache:/home/ernwong/.cache \
           -b "$project_dir":/project \
           -w /project \
-          olive-editor /project/project.ole
+          olive-editor "$@"
+      '';
+    };
+    open-project = pkgs.writeShellApplication {
+      name = "open-project";
+      runtimeInputs = [
+        olive-editor-wrapped
+      ];
+      # Note the decompressed version of the .ove file is created via olive-editor -d project.ove
+      # and the resulting .ovexml can be opened and saved directly.
+      text = ''
+        olive-editor /project/project.ovexml
       '';
     };
   in {
     packages.x86_64-linux = {
       olive-editor = olive-editor-wrapped;
+      open-project = olive-editor-wrapped;
+    };
+    devShells.x86_64-linux.default = pkgs.mkShell {
+      buildInputs = [
+        olive-editor-wrapped
+        open-project
+      ];
     };
   };
 }

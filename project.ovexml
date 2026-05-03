@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olive version="230220" url="/project/project.ovexml">
+    <project>
+        <project version="1">
+            <uuid>{b6f131d3-f5ed-44fa-9233-071a5fdf6cf9}</uuid>
+            <nodes>
+                <node version="1" id="org.olivevideoeditor.Olive.folder" ptr="140726482523024">
+                    <label>Root</label>
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="child_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{c1e48e8d-91e4-4394-8db0-712d4468fc22}</audio>
+                        <video>{f8d36cf7-266e-48d5-8293-d3ad7e0261dd}</video>
+                        <thumb>{4903ac39-0741-4c30-93f0-d608e92a2486}</thumb>
+                        <waveform>{19b72c09-1db8-47b9-b22e-102e506064d2}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+            </nodes>
+            <settings>
+                <colorreferencespace>scene_linear</colorreferencespace>
+                <defaultinputcolorspace>Rec.709 OETF</defaultinputcolorspace>
+                <root>140726482523024</root>
+            </settings>
+        </project>
+        <layout version="1">
+            <folders/>
+            <timeline>
+                <sequence>0</sequence>
+            </timeline>
+            <viewers>
+                <viewer>0</viewer>
+            </viewers>
+            <data>
+                <panel id="AudioMonitor"/>
+                <panel id="CurvePanel"/>
+                <panel id="FootageViewerPanel"/>
+                <panel id="HistoryPanel"/>
+                <panel id="MultiCamPanel"/>
+                <panel id="NodePanel"/>
+                <panel id="ParamPanel"/>
+                <panel id="PixelSamplerPanel"/>
+                <panel id="ProjectPanel"/>
+                <panel id="ScopePanel"/>
+                <panel id="SequenceViewerPanel"/>
+                <panel id="TaskManagerPanel"/>
+                <panel id="TimelinePanel:0">
+                    <option name="splitter">AAAA/wAAAAEAAAADAAAARgAAAEYAAAAAAf////8BAAAAAgA=</option>
+                </panel>
+                <panel id="ToolPanel"/>
+            </data>
+            <state>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</state>
+        </layout>
+    </project>
+</olive>
