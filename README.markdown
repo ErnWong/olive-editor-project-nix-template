@@ -1,4 +1,4 @@
-# My personal templates to use the Olive video editor on NixOS
+# My personal templates to use the [Olive video editor](https://github.com/olive-editor/olive) on NixOS
 
 Reasons for this template's existence:
 
