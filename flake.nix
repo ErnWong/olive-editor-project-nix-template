@@ -1,6 +1,8 @@
 {
   inputs = {
     nixpkgs-stable.url = "github:nixos/nixpkgs/master";
+
+    # Using an older nixpkgs version until build failure is fixed https://github.com/NixOS/nixpkgs/issues/465896
     nixpkgs-olive-editor.url = "github:nixos/nixpkgs/d09aec1b2769b6d64e590c0fa921cef2415529db";
   };
   outputs = inputs: let
