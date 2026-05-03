@@ -1,5 +1,8 @@
 # My personal templates to use the [Olive video editor](https://github.com/olive-editor/olive) on NixOS
 
+[!WARNING]
+I haven't tested whether this template works well with my video editing workflow yet.
+
 Reasons for this template's existence:
 
 - Pinned exact version of the editor used that will be compatible with the project files. Since Olive is under active development and there is a big rewrite upcoming, it seems like a good idea to have the exact version used documented when I go archive a video project.
