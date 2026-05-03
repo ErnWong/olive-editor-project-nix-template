@@ -1,7 +1,7 @@
 # My personal templates to use the [Olive video editor](https://github.com/olive-editor/olive) on NixOS
 
-[!WARNING]
-I haven't tested whether this template works well with my video editing workflow yet.
+> [!WARNING]
+> I haven't tested whether this template works well with my video editing workflow yet.
 
 Reasons for this template's existence:
 
