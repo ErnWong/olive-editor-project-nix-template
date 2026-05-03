@@ -37,24 +37,9 @@
         mkdir -p "$new_root/tmp"
         mkdir -p "$new_root/var" # E.g. for machine-id
 
-        ##mkdir -p "$new_root/run/gdm"
-        #mkdir -p "$new_root/run/dbus"
-        ##mkdir -p "$new_root/run/current-system"
-        #mkdir -p "$new_root/run/user"
-        ##mkdir -p "$new_root/run/blkid"
-        #mkdir -p "$new_root/run/opengl-driver"
-        #mkdir -p "$new_root/run/opengl-driver-32"
-
         mkdir -p ./olive.local
         mkdir -p ./olive.cache
 
-        #-b /run/gdm \
-        #-b /run/dbus \
-        #-b /run/current-system \
-        #-b /run/user \
-        #-b /run/blkid \
-        #-b /run/opengl-driver \
-        #-b /run/opengl-driver-32 \
         proot \
           -r "$new_root" \
           -b /nix/store \
